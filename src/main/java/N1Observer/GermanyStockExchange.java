@@ -20,4 +20,5 @@ public class GermanyStockExchange extends StockExchangeAgency{
     public void update() {
         System.out.println("The value of Germany stock exchange shares is: " + (value * broker.getStatus()));
     }
+
 }
