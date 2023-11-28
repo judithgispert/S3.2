@@ -12,5 +12,6 @@ public class Main {
         System.out.println("");
         System.out.println("You bought 200 stock exchange shares.");
         broker.setStatus(200);
+
     }
 }
