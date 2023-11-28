@@ -2,7 +2,6 @@ package N1Observer;
 
 import java.util.ArrayList;
 import java.util.List;
-
 //Subject
 public class StockExchangeBroker {
     private List<StockExchangeAgency> agenciesList = new ArrayList<StockExchangeAgency>();
