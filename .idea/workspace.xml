@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c8477a7-c853-4bfb-9642-285be9be253d" name="Changes" comment="extends observer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/N3DependencyInjection/CoinConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/N3DependencyInjection/DollarConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/N3DependencyInjection/FrancConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/N3DependencyInjection/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/N3DependencyInjection/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/N3DependencyInjection/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/N3DependencyInjection/YenConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8c8477a7-c853-4bfb-9642-285be9be253d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/N2Callback/ICallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/N2Callback/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/N2Callback/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/N2Callback/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/N2Callback/PaymentBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/N2Callback/PaymentCreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/N2Callback/PaymentPayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/N2Callback/ShopMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/N2Callback/ShopMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,13 +73,26 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/judithgispert/IntelliJ/S3.2/src/main/java/org/example/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.N3DependencyInjection.Main">
+  <component name="RunManager" selected="Application.N2Callback.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="N1Observer.Main" />
       <module name="S3.2.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="N1Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N2Callback.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="N2Callback.Main" />
+      <module name="S3.2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="N2Callback.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.N2Callback.Main" />
         <item itemvalue="Application.N3DependencyInjection.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -140,7 +154,71 @@
       <option name="project" value="LOCAL" />
       <updated>1701171979685</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create interface to use the method">
+      <option name="closed" value="true" />
+      <created>1703157185154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703157185154</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Convert to dollars class">
+      <option name="closed" value="true" />
+      <created>1703157211249</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703157211249</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Convert to francs class">
+      <option name="closed" value="true" />
+      <created>1703157231441</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703157231441</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Convert to yens class">
+      <option name="closed" value="true" />
+      <created>1703157247460</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703157247460</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Main showing different prices">
+      <option name="closed" value="true" />
+      <created>1703157278237</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703157278237</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Product class">
+      <option name="closed" value="true" />
+      <created>1703157303871</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703157303871</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Shop class with method to show the coin convert">
+      <option name="closed" value="true" />
+      <created>1703157332052</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703157332052</updated>
+    </task>
+    <task id="LOCAL-00011" summary="-">
+      <option name="closed" value="true" />
+      <created>1703157338568</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703157338568</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,8 +235,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Main" />
     <MESSAGE value="Subject broker" />
+    <MESSAGE value="Create interface to use the method" />
+    <MESSAGE value="Convert to dollars class" />
+    <MESSAGE value="Convert to francs class" />
+    <MESSAGE value="Convert to yens class" />
+    <MESSAGE value="Main shows different prices" />
+    <MESSAGE value="Main showing different prices" />
+    <MESSAGE value="Product class" />
+    <MESSAGE value="Shop class with method to show the coin convert" />
     <MESSAGE value="extends observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="extends observer" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
